@@ -1,4 +1,3 @@
-Aquí tienes el archivo `doc.md` para la documentación del código y los comentarios dentro del mismo.
 
 ```markdown
 # Editor.js con Chakra UI: Documentación
