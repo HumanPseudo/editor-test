@@ -10,6 +10,7 @@ import Delimiter from '@editorjs/delimiter'; // Tool to add a delimiter in the e
 import Marker from '@editorjs/marker'; // Tool to highlight text
 import InlineCode from '@editorjs/inline-code'; // Tool for inline code snippets
 import Underline from '@editorjs/underline'; // Tool to underline text
+import ToggleBlock from 'editorjs-toggle-block';
 
 function App() {
   const initialData = {
@@ -66,6 +67,8 @@ function App() {
           marker: { class: Marker, shortcut: 'CMD+SHIFT+M' },
           inlineCode: { class: InlineCode, shortcut: 'CMD+SHIFT+M' },
           underline: Underline,
+          toggleBlock: ToggleBlock,
+
         },
         data: initialData,
       })
